@@ -92,8 +92,10 @@ form.addEventListener('submit', e=>{
       })
     })
   .then(resp => resp.json())
-  .then(data => id = data.id)
+  .then(data => {
+    renderToy (data.name, data.image, data.likes, data.id)
+  })
   .catch(error => console.log(error))
 
-  renderToy (name, image, likes, id)
+  
 })
