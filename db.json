@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 12
+      "likes": 20
     },
     {
       "id": 3,
@@ -22,13 +22,13 @@
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "likes": 19
     },
     {
       "id": 5,
       "name": "Rex",
       "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 6,
@@ -47,54 +47,6 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": 1
-    },
-    {
-      "name": "AA",
-      "image": "AAA",
-      "likes": 0,
-      "id": 9
-    },
-    {
-      "name": "111",
-      "image": "22",
-      "likes": 0,
-      "id": 10
-    },
-    {
-      "name": "qq",
-      "image": "111",
-      "likes": 0,
-      "id": 11
-    },
-    {
-      "name": "rrrr",
-      "image": "ttttt",
-      "likes": 0,
-      "id": 12
-    },
-    {
-      "name": "eee",
-      "image": "ttt",
-      "likes": 2,
-      "id": 13
-    },
-    {
-      "name": "aaa",
-      "image": "aaa",
-      "likes": 4,
-      "id": 14
-    },
-    {
-      "name": "sadad",
-      "image": "asdasd",
-      "likes": 43,
-      "id": 15
-    },
-    {
-      "name": "qweqwe",
-      "image": "qweqwe",
-      "likes": 7,
-      "id": 16
     }
   ]
 }

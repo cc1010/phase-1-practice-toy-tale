@@ -60,7 +60,7 @@ function renderToy (name, image, likes, id){
     .then(resp => resp.json())
     .then(data => {
       signleBTN.previousElementSibling.textContent = `${newLikes} Likes`
-      console.log(data)
+      //console.log(data)
     })
 
   })
@@ -76,8 +76,7 @@ form.addEventListener('submit', e=>{
   const name = document.querySelectorAll('.input-text')[0].value
   const image = document.querySelectorAll('.input-text')[1].value
   const likes = 0
-
-  renderToy (name, image, likes, id=0)
+  let id = 0
 
   fetch(serverURL, {
     method: 'POST',
@@ -93,5 +92,8 @@ form.addEventListener('submit', e=>{
       })
     })
   .then(resp => resp.json())
-  .then(data => console.log(data))
+  .then(data => id = data.id)
+  .catch(error => console.log(error))
+
+  renderToy (name, image, likes, id)
 })
